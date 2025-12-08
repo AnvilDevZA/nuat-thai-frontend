@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.link-hover:hover,
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+article h1 {
+  @apply mb-4 text-2xl font-serif font-black text-center;
+}
+
+article h2 {
+  @apply mb-4 text-xl font-serif font-black text-center;
+}
+
+article p {
+  @apply font-light leading-relaxed mb-4; 
+}
+
+article blockquote {
+  @apply border-l-4 pl-4 relative my-2;
+}
+
+article blockquote p {
+  @apply italic text-xl;
+}
+
+@media screen and (min-width: 1024px) {
+  article blockquote::before {
+    content: "\201C";
+    font-size: 6rem;
+    font-family: serif;
+    font-weight: black;
+    position: absolute;
+    top: 22%;
+    left: -10%;
+  }
+}
+
