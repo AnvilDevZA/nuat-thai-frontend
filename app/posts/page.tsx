@@ -1,5 +1,3 @@
-/*
-
 import {
   getAllPosts,
   getAllAuthors,
@@ -64,4 +62,4 @@ export default async function Page() {
     <Footer />
     </>
   );
-}*/
+}
