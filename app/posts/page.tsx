@@ -23,16 +23,16 @@ export const dynamic = "auto";
 export const revalidate = 600;
 
 
-export default async function Page() {
+export default async function Page({
     searchParams,
 }: {
-  searchParams: Promise<{
+  searchParams: {
     author?: string;
     tag?: string;
     category?: string;
     page?: string;
     search?: string;
-  }>;
+  };
 }) {
   const params = await searchParams;
   const { author, tag, category, page: pageParam, search } = params;
