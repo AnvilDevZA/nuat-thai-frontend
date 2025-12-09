@@ -34,8 +34,7 @@ export default async function Page({
     search?: string;
   };
 }) {
-  const params = await searchParams;
-  const { author, tag, category, page: pageParam, search } = params;
+  const { author, tag, category, page: pageParam, search } = searchParams;
 
   // Fetch data based on search parameters
   const [posts, authors, tags, categories] = await Promise.all([
