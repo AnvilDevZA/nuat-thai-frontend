@@ -14,7 +14,7 @@ export default function Home() {
           <Image className="mb-6" src="/massage-back.jpg" height="320" alt="Thai Massage" />
           <p className="text-md font-sans font-light uppercase text-center leading-relaxed mb-4">
             Nuat Thai offers traditional Thai Massage Therapy known as a complimentary medicine for pain, muscle trauma, and stress. Our therapist - <em>Sri</em> Jintana Suipae is trained with the Royal Thai Medical board and has assisted numerous people with dealing with chronic and acute pain both in Thailand and South Africa</p>
-          <h2 className="font black font-serif uppercase text-center text-2xl mb-6">
+          <h2 className="font-black font-serif uppercase text-center text-2xl mb-6">
             Our Holiday Specials
           </h2>
         </article>
