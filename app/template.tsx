@@ -13,7 +13,7 @@ export default function Template({ children}: {children: React.ReactNode }) {
             variants={variants}
             initial="hidden"
             animate="enter"
-            transition={{ type: "tween", duration: 0.3 }}
+            transition={{ type: "tween", duration: 0.7 }}
             >
                 {children}
         </motion.main>
