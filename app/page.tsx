@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Nav />
       <Hero />
-      <main className="bg-[#fdf1e4] text-[#8f143d]">
+      <main className="bg-[#fdf1e4] text-[#8f143d] shadow-lg z-10">
         <article className="max-w-2xl m-auto py-10 px-6">
           <h1 className="font-black font-serif uppercase text-center text-2xl mb-6">Blending tradition with modern science</h1>
           <Image className="mb-6" src="/massage-back.jpg" height="320" alt="Thai Massage" />
